@@ -1285,21 +1285,18 @@ msgstr ""
 "  Zwischenformate umwandelt [^rustc]."
 
 #: src/cargo/rust-ecosystem.md:8
-#, fuzzy
 msgid ""
 "* `cargo`: the Rust dependency manager and build tool. Cargo knows how to\n"
 "  download dependencies hosted on <https://crates.io> and it will pass them to\n"
 "  `rustc` when building your project. Cargo also comes with a built-in test\n"
 "  runner which is used to execute unit tests[^cargo]."
 msgstr ""
-"* `cargo`: der Rust-Abhängigkeitsmanager und Build-Tool. Cargo weiß, wie es geht\n"
-"  Laden Sie Abhängigkeiten herunter, die auf <https://crates.io> gehostet werden, und es wird sie "
-"an sie weitergeben\n"
-"  `rustc`, wenn Sie Ihr Projekt erstellen. Cargo kommt auch mit einem eingebauten Test\n"
-"  Runner, der zum Ausführen von Unit-Tests[^cargo] verwendet wird."
+"* `cargo`: Rust-Abhängigkeitsmanager und Bau-Werkzeug. Cargo kann\n"
+"  Abhängigkeiten von <https://crates.io> herunterladen und diese an\n"
+"  `rustc` weitergeben, wenn du dein Projekt baust. Cargo bietet auch eine\n"
+"  Testausführungsumbegung an, welche zum Ausführen von Unit-Tests verwendet wird."
 
 #: src/cargo/rust-ecosystem.md:13
-#, fuzzy
 msgid ""
 "* `rustup`: the Rust toolchain installer and updater. This tool is used to\n"
 "  install and update `rustc` and `cargo` when new versions of Rust is released.\n"
@@ -1307,65 +1304,55 @@ msgid ""
 "  library. You can have multiple versions of Rust installed at once and `rustup`\n"
 "  will let you switch between them as needed."
 msgstr ""
-"* `rustup`: der Rust Toolchain Installer und Updater. Dieses Werkzeug ist gewöhnungsbedürftig\n"
-"  Installieren und aktualisieren Sie `rustc` und `cargo`, wenn neue Versionen von Rust "
-"veröffentlicht werden.\n"
-"  Darüber hinaus kann `rustup` auch Dokumentationen für den Standard herunterladen\n"
-"  Bibliothek. Sie können mehrere Versionen von Rust gleichzeitig installieren und „rustup“ "
-"ausführen\n"
-"  können Sie nach Bedarf zwischen ihnen wechseln."
+"* `rustup`: Werkzeug zur Installation und Aktualisierung der Rust Werkzeugkette. \n"
+"Dieses Werkzeug benutzt man um `rustc` and `cargo` zu installieren und aktualisieren,\n"
+"wann immer neue Versionen verfügbar sind.\n"
+"Zusätzlich kann `rustup` auch Dokumentation für die Standardbibliothek herunterladen.\n"
+"Mit `rustup` kann man bei Bedarf zwischen mehreren gleichzeitig installierten Versionen\n"
+" von Rust wechseln."
 
 #: src/cargo/rust-ecosystem.md:21 src/hello-world.md:25 src/hello-world/small-example.md:27
 #: src/why-rust/runtime.md:10 src/why-rust/modern.md:21 src/basic-syntax/compound-types.md:30
 #: src/error-handling/try-operator.md:50 src/error-handling/converting-error-types.md:68
 #: src/concurrency/threads.md:30
-#, fuzzy
 msgid "Key points:"
 msgstr "Kernpunkte:"
 
 #: src/cargo/rust-ecosystem.md:23
-#, fuzzy
 msgid ""
 "* Rust has a rapid release schedule with a new release coming out\n"
 "  every six weeks. New releases maintain backwards compatibility with\n"
 "  old releases --- plus they enable new functionality."
 msgstr ""
-"* Rust hat einen schnellen Veröffentlichungszeitplan mit einer neuen Veröffentlichung, die "
-"herauskommt\n"
-"  alle sechs Wochen. Neue Releases behalten die Abwärtskompatibilität mit\n"
-"  alte Versionen --- und sie ermöglichen neue Funktionen."
+"* Rust hat einen kurzen Veröffentlichungszyklus. Alle sechs Wochen \n"
+"  kommt eine neue Version herus. Neue Versionen haben Abwärtskompatibilität \n"
+"  mit alten Versionen --- und sie ermöglichen neue Funktionalität."
 
 #: src/cargo/rust-ecosystem.md:27
-#, fuzzy
 msgid "* There are three release channels: \"stable\", \"beta\", and \"nightly\"."
-msgstr "* Es gibt drei Veröffentlichungskanäle: „Stable“, „Beta“ und „Nightly“."
+msgstr "* Es gibt drei Veröffentlichungskanäle: „stable“, „beta“ und „nightly“."
 
 #: src/cargo/rust-ecosystem.md:29
-#, fuzzy
 msgid ""
 "* New features are being tested on \"nightly\", \"beta\" is what becomes\n"
 "  \"stable\" every six weeks."
 msgstr ""
-"* Neue Funktionen werden auf \"Nightly\" getestet, \"Beta\" ist das, was wird\n"
-"  \"stabil\" alle sechs Wochen."
+"* Neue Funktionalität wird auf \"nightly\" getestet, \"beta\" ist das, was alle\n"
+"  sechs Wochen zu \"stable\" wird."
 
 #: src/cargo/rust-ecosystem.md:32
-#, fuzzy
 msgid ""
 "* Rust also has [editions]: the current edition is Rust 2021. Previous\n"
 "  editions were Rust 2015 and Rust 2018."
 msgstr ""
-"* Rust hat auch [Editionen]: Die aktuelle Edition ist Rust 2021. Zurück\n"
+"* Rust hat auch [Editionen]: Die aktuelle Edition ist Rust 2021. Vorherige\n"
 "  Editionen waren Rust 2015 und Rust 2018."
 
 #: src/cargo/rust-ecosystem.md:35
-#, fuzzy
 msgid ""
 "  * The editions are allowed to make backwards incompatible changes to\n"
 "    the language."
-msgstr ""
-"  * Die Editionen dürfen rückwärtsinkompatible Änderungen vornehmen\n"
-"    die Sprache."
+msgstr "  * Die Editionen dürfen rückwärtsinkompatible Änderungen der Sprache vornehmen."
 
 #: src/cargo/rust-ecosystem.md:38
 #, fuzzy
@@ -4696,10 +4683,8 @@ msgstr ""
 
 #: src/ownership/borrowing.md:27
 #, fuzzy
-msgid ""
-"Notes on stack returns:\n"
-msgstr ""
-"Hinweise zur Stapelrückgabe:\n"
+msgid "Notes on stack returns:\n"
+msgstr "Hinweise zur Stapelrückgabe:\n"
 
 msgid ""
 "* Demonstrate that the return from `add` is cheap because the compiler can eliminate the copy "
@@ -4725,8 +4710,7 @@ msgid ""
 "      let p = Point(p1.0 + p2.0, p1.1 + p2.1);\n"
 "      println!(\"&p.0: {:p}\", &p.0);\n"
 "      p\n"
-"  }"
-"  ```\n"
+"  }  ```\n"
 msgstr ""
 
 #: src/ownership/borrowing.md:40
@@ -5231,10 +5215,8 @@ msgstr ""
 
 #: src/exercises/day-1/book-library.md:99
 #, fuzzy
-msgid ""
-"[Solution](solutions-afternoon.md#designing-a-library)"
-msgstr ""
-"[Lösung](solutions-afternoon.md#designing-a-library)"
+msgid "[Solution](solutions-afternoon.md#designing-a-library)"
+msgstr "[Lösung](solutions-afternoon.md#designing-a-library)"
 
 #: src/exercises/day-1/iterators-and-ownership.md:1
 #, fuzzy
@@ -5548,10 +5530,8 @@ msgstr ""
 
 #: src/structs.md:29
 #, fuzzy
-msgid ""
-"Key Points: "
-msgstr ""
-"Wichtige Punkte:"
+msgid "Key Points: "
+msgstr "Wichtige Punkte:"
 
 #: src/structs.md:32
 msgid ""
@@ -5787,10 +5767,8 @@ msgstr ""
 
 #: src/enums.md:31
 #, fuzzy
-msgid ""
-"Key Points:"
-msgstr ""
-"Wichtige Punkte:"
+msgid "Key Points:"
+msgstr "Wichtige Punkte:"
 
 #: src/enums.md:35
 #, fuzzy
@@ -6901,16 +6879,13 @@ msgstr ""
 
 #: src/exercises/day-2/points-polygons.md:120
 #, fuzzy
-msgid ""
-"Other interesting parts of the exercise:\n"
-msgstr ""
-"Weitere interessante Teile der Übung:\n"
+msgid "Other interesting parts of the exercise:\n"
+msgstr "Weitere interessante Teile der Übung:\n"
 
 msgid ""
 "* Derive a `Copy` trait for some structs, as in tests the methods sometimes don't borrow their "
 "arguments.\n"
 "* Discover that `Add` trait must be implemented for two objects to be addable via \"+\".    "
-
 msgstr ""
 "* Leiten Sie ein `Copy`-Merkmal für einige Strukturen ab, da die Methoden in Tests ihre Argumente "
 "manchmal nicht ausleihen.\n"
@@ -8459,8 +8434,7 @@ msgstr ""
 "virtuelle Methodentabelle für die \"Greet\"-Implementierung dieses bestimmten Objekts."
 
 #: src/traits.md:46
-msgid ""
-"Compare these outputs in the above example:\n"
+msgid "Compare these outputs in the above example:\n"
 msgstr ""
 
 #: src/traits/deriving-traits.md:1
@@ -11982,8 +11956,7 @@ msgid ""
 msgstr ""
 
 #: src/concurrency/shared_state/example.md:23
-msgid ""
-"Possible solution:\n"
+msgid "Possible solution:\n"
 msgstr ""
 
 #: src/concurrency/shared_state/example.md:29
@@ -12011,13 +11984,11 @@ msgid ""
 msgstr ""
 
 #: src/concurrency/shared_state/example.md:43
-msgid "    handle.join().unwrap();"
-"```\n"
+msgid "    handle.join().unwrap();```\n"
 msgstr ""
 
 #: src/concurrency/shared_state/example.md:45
-msgid ""
-"Notable parts:"
+msgid "Notable parts:"
 msgstr ""
 
 #: src/concurrency/shared_state/example.md:54
